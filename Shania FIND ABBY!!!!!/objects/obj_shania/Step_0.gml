@@ -14,3 +14,8 @@ image_angle = point_direction(x, y, mouse_x, mouse_y);
 if (x < -20 || x > room_width + 20 || y > room_height + 20 || y < -200) {
 	room_restart();
 }
+//In the Control Event for your object, add the following code:
+
+if (keyboard_check_pressed(vk_space)) {
+    room_goto(room_index + 1); // Go to the next room in the sequence
+}
