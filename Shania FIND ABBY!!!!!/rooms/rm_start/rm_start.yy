@@ -18,6 +18,7 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"start_block","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_13E1F62D","properties":[],"isDnd":false,"objectId":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":14.183525,"scaleY":9.281249,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2080.0,"y":704.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E82F650","properties":[],"isDnd":false,"objectId":{"name":"obj_controls","path":"objects/obj_controls/obj_controls.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":11.5,"scaleY":6.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2164.0,"y":1246.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_117878D1","properties":[],"isDnd":false,"objectId":{"name":"obj_startpage","path":"objects/obj_startpage/obj_startpage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5694444,"scaleY":1.0994792,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1696.0,"y":-384.0,},
@@ -30,13 +31,14 @@
   "instanceCreationOrder": [
     {"name":"inst_117878D1","path":"rooms/rm_start/rm_start.yy",},
     {"name":"inst_13E1F62D","path":"rooms/rm_start/rm_start.yy",},
+    {"name":"inst_5E82F650","path":"rooms/rm_start/rm_start.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
   "roomSettings": {
     "inheritRoomSettings": false,
     "Width": 5000,
-    "Height": 1400,
+    "Height": 1700,
     "persistent": false,
   },
   "viewSettings": {
